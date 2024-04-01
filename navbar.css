@@ -1,0 +1,28 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+   display: flex;
+list-style: none;
+background-color: black;
+justify-content: right;
+padding-right: 500px;
+
+}
+.navbar li{
+ 
+    padding: 25px;
+    color: white;
+  display: block;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: 700;
+}
+li:hover{
+color: blue;
+background-color: blueviolet;
+border: 6px solid seagreen;
+}

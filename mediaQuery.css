@@ -1,0 +1,44 @@
+div{
+    width: 200px;
+    height: 200px ;
+    background-color: red ;
+    transition-property: width;
+    transition-timing-function: steps(5);
+    transition-duration: 2s;
+    transition-delay: 1s;
+    transition: width steps(3) 2s 3s;
+}
+.box{
+    width: 200px;
+    height: 150px;
+}
+div:hover{
+  width: 500px;
+}
+/* @media  screen and (max-width:300px){
+    div{
+        background-color: blue;
+    }
+}
+body {
+    background-color: lightgreen;
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    p{
+        font-size: 30px;
+    }
+}
+  
+  @media  screen and (min-width:200px) and (max-width:500px){
+    div{
+background-color: darkkhaki;
+    }
+  }
+    
+  
+   */
+   
